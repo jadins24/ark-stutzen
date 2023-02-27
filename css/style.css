@@ -90,25 +90,7 @@
 
 }
 
-#head{display: none;}
 
-.menu-bar{
-    top:20px;
-    right:20px;
-    z-index:1;
-}
-.list-icon{
-    font-size: 40px;
-    background-color: #76C8B7;
-    border-radius: 5px;
-}
-.nav{
-    display: none;
-}
-.nav-link{
-    font-size: 20px;
-    color: white;
-}
 .home{
     background:url(../img/Banner\ 1.png);
     background-repeat: no-repeat;
