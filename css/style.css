@@ -4,7 +4,9 @@
     box-sizing:border-box
 
 }
+
 .header{
+    overflow: hidden;
    
 }
 .header-bg{
@@ -102,16 +104,41 @@
 }
 .home-container{
     width: 80%;
+    height: 90vh;
+    text-align: center;
     margin: 0 auto;
-    
-
-}
-.home-content{
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+}
+.home-content{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    
+
+}
+.home-content h1{
+   font-size: 2.5rem;
+    
+
+}
+.home-content h3{
+   background-color: #00338d;
+   font-size: 2rem;
+    
+
+}
+.home-content h2{
+   font-size: 1.5rem;
+    
+
+}
+.home-content p{
+    font-size: 1rem;
+    
 
 }
 .home-rel{
@@ -121,7 +148,7 @@
 }
 .home-abs{
     position: absolute;
-    top: -100px;
+    bottom: -100px;
     display: flex;
 
 }
@@ -141,9 +168,14 @@
     left: 0;
     right: 0;
     bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
     color: white;
-    text-align: center;
+  
 }
 .home-img-content h4{
      padding: 10px 0;
@@ -499,6 +531,7 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
 }
 .form-container{
     display: flex;
+    flex-wrap: wrap;
    
 }
 .form-content{
@@ -520,15 +553,122 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
 }
 .form-form{
     width: 60%;
+    padding: 30px 0;
     background:url(../img/image\ 2.png);
     background-repeat: no-repeat;
 
 }
+.form-d{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.form1{
+    width: 50%;
+    display: flex;
+    padding: 0 10px;
+    flex-direction: column;
+   
+}
+.form1 input{
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.form input[type="button"]{
+    background-color: #ffaa01;
+    border: none;
+    
+
+
+}
+.footer{
+    background:url(../img/Footer.png);
+    background-repeat: no-repeat;
+    color:white;
+    background-size: cover;
+}
+.footer-container{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.footer1{
+    width: 25%;
+}
+.footer-logo{
+    display: flex;
+   
+    align-items: center;
+}
+.footer2{
+    width: 20%;
+    display: grid;
+    padding: 0 15px;
+}
+.footer2 h3{
+    padding: 10px 0;
+    color: #099c61;
+
+}
+.footer2 a{
+    text-decoration: none;
+    padding: 5px 0;
+    color:#a4a4a4;
+}
+.footer3{
+    width: 30%;
+    padding: 0 15px;
+}
+.footer3 h3{
+    padding: 10px 0;
+    color: #099c61;
+
+}
+.footer3-li{
+    display: flex;
+    color: #a4a4a4;
+}
+.footer4{
+    width: 25%;
+
+}
+.footer4 h3{
+    padding: 10px 0;
+    color: #099c61;
+
+}
+.footer4 p{
+    padding: 5px 0;
+}
+.footer4 i{
+    padding: 0 10px;
+
+}
+.footer4 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 
 @media (min-width:320px){
+    html{
+        font-size: 15px;
+    }
     .header-contact{
         
+    }
+    .home-abs{
+        display: none;
     }
     .about-container{
         width: 95%;
@@ -590,12 +730,44 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
         width: 100%;
         
     }
+    .form-content{
+        width: 100%;
+    }
+    .form-form{
+        width: 100%;
 
+    }
+    .form1{
+        width: 80%;
+    }
+    .footer1{
+        width: 100%;
+    
+    }
+    .footer2{
+        width:100%;
+    
+    }
+    .footer3{
+        width: 100%;
+    
+    }
+    .footer4{
+        width: 100%;
+    
+    }
 }
 
 @media (min-width:600px){
+    html{
+        font-size: 15px;
+    }
     .header-contact{
         
+    }
+    .home-abs{
+        display: flex;
+   
     }
     .about-container{
         width: 95%;
@@ -653,11 +825,43 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
     .testimonial-container{
         width: 80%;
     }
+    .form-content{
+        width: 40%;
+    }
+    .form-form{
+        width: 60%;
+
+    }
+    .form1{
+        width: 80%;
+    }
+    .footer1{
+        width: 50%;
+    
+    }
+    .footer2{
+        width: 50%;
+    
+    }
+    .footer3{
+        width: 50%;
+    
+    }
+    .footer4{
+        width: 50%;
+    
+    }
 
 }
 @media (min-width:1024px){
+    html{
+        font-size: 15px;
+    }
     .header-contact{
        
+    }
+    .home-abs{
+        display: flex;
     }
     .about-container{
         width: 80%;
@@ -715,6 +919,32 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
     }
     .testimonial-container{
         width: 50%;
+    }
+    .form-content{
+        width: 40%;
+    }
+    .form-form{
+        width: 60%;
+
+    }
+    .form1{
+        width: 50%;
+    }
+    .footer1{
+        width: 25%;
+    
+    }
+    .footer2{
+        width: 20%;
+    
+    }
+    .footer3{
+        width: 30%;
+    
+    }
+    .footer4{
+        width: 25%;
+    
     }
 
 
