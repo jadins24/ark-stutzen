@@ -576,6 +576,8 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
 .form-d{
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
    
 }
 .form1{
