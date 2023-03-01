@@ -5,6 +5,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .header{
     
@@ -722,7 +725,19 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
     padding: 20px 0;
     text-align: center;
 }
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 28px;
+    display: none;
+    text-decoration: none;
+    color: black;
+}
 
+.go-to-top.active{
+    display: flex;
+}
 
 
 

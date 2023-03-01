@@ -10,3 +10,12 @@ var i=1;
 				document.querySelector(".menu-bar").style="background-color:none;padding: 0px;";				
 			}
 		}
+
+
+const isScrolling =() =>{
+	const goTop= document.querySelector('.go-to-top')
+	let windowPosition =window.scrollY>250
+	goTop.classList.toggle('active',windowPosition)
+
+}
+window.addEventListener('scroll' , isScrolling)
