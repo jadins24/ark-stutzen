@@ -3,7 +3,7 @@ var i=1;
 			i++;
 			if(i%2==0){
 				document.querySelector(".nav").style="display:flex";
-				document.querySelector(".menu-bar").style="background-color:#414252;padding: 20px;";
+				document.querySelector(".menu-bar").style="background-color:#black;padding: 20px;";
 			}
 			if(i%2!=0){
 				document.querySelector(".nav").style="display:none";

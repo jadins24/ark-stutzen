@@ -10,6 +10,15 @@
     
    
 }
+
+
+.head{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 99;
+}
+
 .header-bg{
     background-color: green;
 }
@@ -75,7 +84,8 @@
 }
 .nav-link{
     font-size: 20px;
-    color: white;
+    color: black;
+    text-decoration: none;
 }
 
 .logo-content{
@@ -165,9 +175,8 @@
 .home-content h3{
    background-color: #00338d;
    font-size: 2rem;
-   
-    
-
+   width: 50%;
+   margin: 0 auto;
 }
 .home-content h2{
    font-size: 1.5rem;
@@ -543,8 +552,20 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
     width: 80%;
     margin: 0 auto;
 }
-
-
+.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}
+.slick-dots {
+    display: none!important;
+}
+.slick-track{
+    display: flex!important;
+    align-items: center!important;
+}
+.icon1{
+    display: flex!important;
+    justify-content: center!important;
+}
 .form{
 
 
@@ -559,6 +580,7 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
     width: 40%;
     background:url(../img/image\ 1.png);
     background-repeat: no-repeat;
+    color: white;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -709,8 +731,19 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
     html{
         font-size: 15px;
     }
+    .head{
+        position: sticky;
+    
+    }
     .header-contact{
         
+    }
+    .header-logo{
+        width: 90%;
+        padding-bottom: 0px;
+    }
+    .header-contact{
+        display: none;
     }
     .nav-bar{
         display: none;
@@ -825,9 +858,26 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
     html{
         font-size: 15px;
     }
+    .head{
+        position: static;
+    
+    }
     .header-contact{
         
     }
+    .header-contact{
+        display: flex;
+    }
+    .header-logo{
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    .head{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 99;
+}
     .nav-bar{
         display: flex;
     }
@@ -938,8 +988,19 @@ background: linear-gradient(90deg, rgba(40,87,157,1) 48%, rgba(57,177,139,1) 79%
     html{
         font-size: 15px;
     }
+    .head{
+        position: static;
+    
+    }
     .header-contact{
        
+    }
+    .header-contact{
+        display: flex;
+    }
+    .header-logo{
+        width: 90%;
+        padding-bottom: 30px;
     }
     .nav-bar{
         display: flex;
